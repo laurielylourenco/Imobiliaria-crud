@@ -1,2 +1,6 @@
 bd_imobiliaria
 despachante
+
+senha para login
+funcionario->1
+senha->123
