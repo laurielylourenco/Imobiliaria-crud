@@ -6,6 +6,6 @@ CRUD sobre uma imobiliaria, onde cadastro dos imoveis,clientes e dos corretores 
   <li> Acesso ao banco de dados com mysql </li>
   <li>Uso do PDO</li>
   <li>Para aparencia do projeto css,o framework boostrap, html</li>
-  <li> Acesso ao banco de dados com mysql </li>
+ 
   </ul>
    
