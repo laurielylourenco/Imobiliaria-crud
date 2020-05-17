@@ -2,8 +2,8 @@
 
 // instancia objeto PDO, conectando no mysql
 	$hostname = 'localhost';
-	$username = 'despachante';
-	$password = 'imovel';
+	$username = 'adm';
+	$password = 'lourenco';
 	$database = 'bd_imobiliaria';
 	try {
 		$conn = new PDO("mysql:host=$hostname;dbname=$database;charset=utf8", $username, $password,
