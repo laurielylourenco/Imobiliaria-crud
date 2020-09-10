@@ -15,8 +15,6 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);?>
 
 <body>
   <div id="wrapper" class="active">  
-   
-
   <div id="page-content-wrapper">
     <div class="page-content inset">
       <div class="row">
@@ -28,7 +26,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);?>
              <?php 
              try{
               require_once 'funcaophp/conn.php';
-              $result = $conn->query("SELECT * FROM  Corretor");
+              $result = $conn->query("SELECT * FROM  corretor");
               if ($result) 
               {
               

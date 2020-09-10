@@ -36,6 +36,6 @@ $tel_corretor= 0;
     print "Erro!: " . $e->getMessage() . "\n";
     die();
   }
-  echo "<script>alert('Cliente cadastrado com sucesso!');window.location='../login/panel.php';</script>";
+    echo "<script>alert('Corretor cadastrado com sucesso!');window.location='../login/panel.php';</script>";
   }
 ?>
