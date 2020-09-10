@@ -96,6 +96,8 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);?>
         </div>
     </div>
     </div>
+
+    <a class="btn btn-primary mt-2" href="./login/panel.php">Voltar</a>
   </div>
 </div>
 </body>
