@@ -2,9 +2,9 @@
  
 //sorry repete demais isso 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'adm');
-define('DB_PASS', 'lourenco');
-define('DB_NAME', 'bd_imobiliaria');
+define('DB_USER', 'user');
+define('DB_PASS', 'senha');
+define('DB_NAME', 'nomeaqui');
  
 // habilita todas as exibições de erros
 ini_set('display_errors', true);

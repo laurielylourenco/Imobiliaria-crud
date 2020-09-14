@@ -37,9 +37,9 @@
 		
 		public function conectar() {
 			try {
-				$this->pdo = new PDO("mysql:host=localhost;dbname=bd_imobiliaria",
-								"adm",
-								"lourenco",
+				$this->pdo = new PDO("mysql:host=localhost;dbname=nomeaqui",
+								"user",
+								"senha",
 								array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 			} catch (PDOException $e) {
 				print "Error!: " . $e->getMessage() . "<br/>";
