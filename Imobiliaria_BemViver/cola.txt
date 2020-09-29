@@ -1,3 +1,0 @@
-senha para login
-funcionario->1
-senha->123
