@@ -1,11 +1,9 @@
-# Imobiliaria-Bem-Viver
-CRUD sobre uma imobiliaria, onde cadastro dos imoveis,clientes e dos corretores, login com uma senha padrao para entrar na area privada.Alem de ter uma buscar com ajax.
+# Imobiliaria-CRUD
+E um CRUD sobre imobiliaria ficticia onde pode voce cadastrar o cliente é o imovel.Tem uma area com login onde cadastra os funcionarios some com uma senha pre cadastrar no BD.
 ***
-## O que foi usado no desenvolvimento do projeto ? 
-* Acesso ao banco de dados com mysql 
-* Uso do PDO
-* Para aparencia do projeto css,o framework boostrap, html
-* Uso do ajax para pesquisa sem recarregar a página
+## O que foi usado no desenvolvimento do projeto ?  
+* PHP com PDO.
+* Bootstrap,CSS,HTML,JS.
 
 ---
-*configure o banco de dados nas classes necessarias*
+*configure o banco de dados na classe Database*
