@@ -57,7 +57,7 @@
                            <div class="input-group center">
                               <input type="hidden" name="testeImovel">
                             <input type="text" class="form-control" name="pesquisaCliente" id="pesquisaCliente"
-                            value="" tabindex="1" placeholder="Pesquisar cliente..." />
+                            value="" tabindex="1" placeholder="Pesquisar cliente pelo NOME..." />
                             <input type="hidden" name="form_cliente">
                                 <div class="input-group-btn">
                                 <button class="btn btn-default" type="submit">

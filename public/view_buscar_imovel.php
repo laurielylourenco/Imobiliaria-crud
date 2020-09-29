@@ -49,7 +49,7 @@
                            <div class="input-group center">
   
                             <input type="text" class="form-control" name="pesquisaImovel" id="pesquisaImovel"
-                            value="" tabindex="1" placeholder="Pesquisar cliente..." />
+                            value="" tabindex="1" placeholder="Pesquisar imovel pelo TIPO..." />
   
                                 <div class="input-group-btn">
                                 <button class="btn btn-default" type="submit">

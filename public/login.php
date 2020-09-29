@@ -33,12 +33,12 @@
                   <div class="form-group">
                      <label>Pessoa autorizada:</label>
                      <br>
-                     <input type="text" class="form-control" autocomplete="off" id="numero" name="numeroSenha" placeholder="Seu numero">
+                     <input type="text" class="form-control" autocomplete="off" id="numero" name="numeroSenha" placeholder="Seu numero = 123">
                   </div>
                   <div class="form-group">
                      <label>Senha:</label>
                      <br>
-                     <input type="password" id="password" name="senhaUSuario" class="form-control" placeholder="Senha">
+                     <input type="password" id="password" name="senhaUSuario" class="form-control" placeholder="Senha = imovel">
                   </div>
                  <button type="submit" name="loginUsuario" id="login"  class="btn btn-outline-dark">Login</button>
                </form>
