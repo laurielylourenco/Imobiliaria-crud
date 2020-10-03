@@ -2,6 +2,7 @@
     error_reporting(E_ERROR | E_WARNING | E_PARSE);
     require_once 'index.php';
     require_once '../app/Model/Cliente.class.php';
+    
     $cli = new Cliente();
     
     require_once  '../app/Controller/cliente/id_update.php';

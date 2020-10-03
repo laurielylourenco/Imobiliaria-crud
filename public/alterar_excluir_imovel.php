@@ -2,24 +2,24 @@
  error_reporting(E_ERROR | E_WARNING | E_PARSE);
  require_once 'index.php';
  require_once '../app/Model/Imovel.class.php';
+
  $imovel = new Imovel();
 
  require_once '../app/Controller/imovel/update.php';
  require_once '../app/Controller/imovel/id_update.php';
  require_once '../app/Controller/imovel/excluir.php';
-
 ?>
 
   <!-- Page content -->
   <div id="page-content-wrapper">
-        <!-- Keep all page content within the page-content inset div! -->
+
       <div class="page-content inset">
         <div class="row">
           <div class="col-md-12">
             <p class="well lead">Cadastro de Imovel</p>
             <div class="container">
-              <div class="row"> <!-- div da esquerda -->
-                    <!-- Text input CNPJ e Razao Social-->
+              <div class="row"> 
+                
             <div class="col-sm-8 contact-form">
              <!-- div da direita -->
                 <form id="contact" method="post" class="form" role="form">
@@ -45,7 +45,7 @@
                       </div>
 
                       </div> <!-- fim row -->
-                            <!-- Text input endereco-->
+                      
                       <div class="col-xs-4 col-md-12 form-group">
                           <div class="controls">
                               <label for="situcao_atual">Situaçao Atual:</label>
@@ -55,9 +55,9 @@
                                  </select>
                             </div>
                       </div><!--fim control-group-->
-                      <br> <!--pulando uma linha -->
+                      <br> 
 
-                      <!-- Text input cidade e estado-->
+                    
                       <div class="row">
                       <div class="col-xs-6 col-md-9 form-group">
                             <label for="bairro">Bairro:</label>
@@ -79,7 +79,7 @@
                             <label for="numero_quarto">Numero de Quartos:</label>
                             <input type="text" class="form-control" name="numero_quarto" id="numero_quarto"  value="<?php echo $row['numero_quarto'];?>">
                       </div>
-                      </div><!--fim Text input cidade e estado-->
+                      </div>
                       
                       <div class="row">
                       <div class="col-xs-8 col-md-3 form-group">
@@ -110,10 +110,10 @@
 
                                     <input type="hidden" class="form-control" name="form_imovel" value="pesquisa">
                                     <button type="submit" name="editar" type="button" class="btn btn-success" value="editar"  >EDITAR</button>
-                                    <!--as açoes serao definidas por java script -->
+                                    
                                     <input type="hidden" class="form-control" name="excluir_imovel" value="pesquisa">
                                     <button name="excluir_imovel" type="submit" type="button" class="btn btn-danger" value="excluir">EXCLUIR</button>
-                                    <!--<button class="btn btn-primary pull-right" type="submit">Enviar</button>-->
+                                   
                                 </div>
                             </div>
                         </form>

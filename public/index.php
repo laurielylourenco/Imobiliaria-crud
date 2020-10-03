@@ -2,15 +2,10 @@
 <html>
 <head>
 	<title>Imobiliaria</title>
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../resources/css/menu.css">
-   <!-- <script src="../resources/js/busca.js"></script> -->
    <script src="../resources/js/jquery-3.2.1.min.js"></script>
-   <script type="text/javascript"  src="../resources/js/busca_cliente.js" > </script>
-   <!--  <script  type="text/javascript" src="../resources/js/busca_imovel.js"></script>  -->
-    
-  	
+   <script type="text/javascript"  src="../resources/js/busca_cliente.js" > </script> 	
 </head>
 <body>
 	<div id="wrapper" class="active">

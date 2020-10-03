@@ -1,8 +1,9 @@
 <?php
 	class Database{
-		protected $host = 'localhost';
-		protected $user = 'adm';
-		protected $password = 'lourenco';
+		
+		protected $host = 'host';
+		protected $user = 'user';
+		protected $password = 'senha';
 		protected $dbname = 'bd_imobiliaria';
 		protected $conn;
 

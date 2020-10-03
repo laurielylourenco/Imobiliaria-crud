@@ -9,6 +9,3 @@
     echo "<script>alert('Logout');
     window.location='../../../public/index.php';</script>";
   }
-  
-  /* 
- */

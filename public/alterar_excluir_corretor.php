@@ -1,6 +1,8 @@
 <?php 
     require_once '../app/Model/Corretor.class.php';
+
     $fun = new Corretor();
+    
     require_once '../app/Controller/corretor/id_update.php';
     require_once '../app/Controller/corretor/update.php';  
     require_once '../app/Controller/corretor/excluir.php';

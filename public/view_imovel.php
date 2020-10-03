@@ -2,7 +2,6 @@
     error_reporting(-1);
     require_once 'index.php';
     require_once '../app/Model/Imovel.class.php';
-    require_once '../app/Controller/validacao.php';
     require_once '../app/Controller/imovel/cad.php'; 
 ?>
 

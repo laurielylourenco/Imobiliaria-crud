@@ -3,16 +3,11 @@
     require_once '../app/Model/Corretor.class.php';
     require_once '../app/Controller/corretor/cad.php';
     require_once '../app/Model/Login.class.php';
-   
+      
     $login = new Login();
-   
      if (!$login->isLoggedIn()){
         header('Location: login.php');
         } 
-
-    //require_once '../app/Controller/corretor/logout.php';
- 
-   
 ?>
 
 <!DOCTYPE html>

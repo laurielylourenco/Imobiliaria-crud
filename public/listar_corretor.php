@@ -1,7 +1,6 @@
 <?php 
     require_once '../app/Model/Corretor.class.php';
-    $fun = new Corretor();
-   
+    $fun = new Corretor(); 
 ?>
 
 <!DOCTYPE html>

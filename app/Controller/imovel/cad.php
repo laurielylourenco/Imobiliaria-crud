@@ -1,6 +1,4 @@
 <?php
-   
-      //$vali = new Validacao();
       $imovel = new Imovel();
 
         if (isset($_POST['form_imovel'])) 
